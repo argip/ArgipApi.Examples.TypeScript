@@ -1,0 +1,23 @@
+{
+  "name": "argipapi.examples.typescript",
+  "version": "1.0.0",
+  "description": "TypeScript client, demo CLI and quickstart for the Argip Client API",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "demo": "tsx demo/index.ts",
+    "quickstart": "tsx quickstart/quickstart.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}
